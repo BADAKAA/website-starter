@@ -1,6 +1,6 @@
 # website-starter
 
-The perfect template for writing a website. You can choose between css and Scss as well as JavaScript and TypeScript.
+The perfect template for writing a website. You can choose between Css and Scss as well as JavaScript and TypeScript.
 
 TypeScript and 
 are recommended for advanced users only.    
