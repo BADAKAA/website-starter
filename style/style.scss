@@ -1,0 +1,42 @@
+@import "_fonts";
+:root {
+    font-size: clamp(10pt, 1vw, 16pt);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    font-weight:800;
+    font-size: 5rem;
+}
+.center {
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.absolute {
+    position: absolute;
+}
+.split {
+    display: grid;
+    margin: 0 2vw 0 2vw;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    margin: 0 2vw 0 2vw;
+    column-gap: clamp(30px, 2vw, 50px);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
